@@ -8,23 +8,21 @@
 //This is a 'using' declaration.
 //Used to turn some statement into smaller ones.
 //Like: System.Console.WriteLine() into just Console.WriteLine().
-using System; //Now expresions starting with the prefix "System." can be also used without this prefix.
+using System; //Now expressions starting with the prefix "System." can be also used without this prefix.
 
-//Namespace declaration.
-//This declares a namespace called "CSharpIntro".
-//Namespaces are groups of classes or other namespaces.
+//Namespace declaration. Namespaces are groups of classes or other namespaces.
 namespace CSharpIntro
 {
     //Class declaration.
-    //This declares a class named "Program".
+    //This declares a class named Program.
     //You can see classes as groups of methods, classes and some other stuff that are really not important for now.
     class Program
     {
         //Method declaration.
-        //A methos consists of a sequence of statements that should be executed when the method is invoked ("called").
+        //A method consists of a sequence of statements that should be executed when the method is invoked ("called").
         //This declares a method called "Main"
         //This is the entry point for almost every program written in C#.
-        //It must have this exact signature (name and keywords as this order) and structure, or otherwise the program will not even compile!
+        //It must have this exact signature (name and keywords as this order) and structure, otherwise the program will not even compile!
         static void Main(string[] args)
         {
             //Method invocation.
@@ -33,13 +31,13 @@ namespace CSharpIntro
             Console.WriteLine("Hello World!");
 
             //Variable declaration
-            //Here we are declaring a variable named 'n' of type 'int' (which can hold integer numers including negative and nonegative numbers).
+            //Here we are declaring a variable named 'n' of type 'int' (which can hold integer numbers including negative and nonegative numbers).
             int m;
             //Multiple variables of the same type can also be declared in a single line like this:
             int n, o;
 
             //To assign a value to a variable, you can use the assignment operator =.
-            //This is iften called an assignment expression.
+            //This is often called an assignment expression.
             m = 10;
             n = 20;
             o = 30;
