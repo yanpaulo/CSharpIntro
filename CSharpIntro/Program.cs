@@ -10,11 +10,13 @@
 //Like: System.Console.WriteLine() into just Console.WriteLine().
 using System; //Now expresions starting with the prefix "System." can be also used without this prefix.
 
-//Namespace declaration. Namespaces are groups of classes or other namespaces.
+//Namespace declaration.
+//This declares a namespace called "CSharpIntro".
+//Namespaces are groups of classes or other namespaces.
 namespace CSharpIntro
 {
     //Class declaration.
-    //This declares a class named Program.
+    //This declares a class named "Program".
     //You can see classes as groups of methods, classes and some other stuff that are really not important for now.
     class Program
     {
